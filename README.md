@@ -1,6 +1,6 @@
 # Wall Thickness Calculator
 
-Wall thickness is calculated by taking the median of Wt_Calc field of a section of Girthwelds as indicated by the marked girth weld ups and downs. 
+Wall thickness is calculated by taking the median of Wt_Calc field of a section of Girthwelds as indicated by the marked girth weld ups and downs. Girth weld ups and downs may be determined as well. Casings, sleeves and installations will not change Wall thickness wt calc field if identified.
 
 ## Getting Started
 
