@@ -7,7 +7,7 @@ Wall thickness is calculated by taking the median of Wt_Calc field of a section 
 Using executable - open and select file, pipe size, edit list of wall thickness, select options and run
 
 Generating executable 
-- create virtual env (recommended venv), 
+- create virtual env (virtualenv) 
 - download libs (numpy, pandas, dbfread, pyinstaller, pyqt5, path(possibily incomplete))
 - run pyinstaller onefile install on App.py "pyinstaller --onefile App.py"
 - if using anaconda distribution, edit spec file hiddenimports=['pandas._libs.tslibs.timedeltas']
@@ -25,5 +25,7 @@ qtwindow.py ui file converted to py
 If executable provided - windows
 Anaconda distribution not recommended, pyinstaller may then create 500 mb apps
 python 3.6
+
+![alt text](https://github.com/esolty/WT_App/blob/master/WT_tool.PNG "Pipe Wall Thickness Calculator")
 
 #### Application and README is underdevelopment - 20190122
